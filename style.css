@@ -45,5 +45,6 @@ width: 80%;
 .greeting {
 	text-align: center;
 	width: 100%;
-	padding: 5% 0;	
+	padding: 5% 0;
+	outline: red 1px solid;
 }
