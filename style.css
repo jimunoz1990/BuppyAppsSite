@@ -41,3 +41,9 @@ margin: 0 auto;
 outline: 1px red solid;
 width: 80%;
 }
+
+.greeting {
+	text-align: center;
+	width: 100%;
+	padding: 5% 0;	
+}
