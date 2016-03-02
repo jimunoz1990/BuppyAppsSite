@@ -1,86 +1,43 @@
 * {
-font-size: 1.75em;
-text-align: center;
-padding: 20px;
+  margin: 0px;
+  padding: 0px;
 }
 
-#one {
-font-family: 'Lato', sans-serif;
 
+.boxes {
+  float: left;
+  outline: 1px black solid;
+  width: 50%;
+  text-align: center;
 }
 
-#two {
-font-family: 'Source Sans Pro', sans-serif;
+li {
+  display: inline;
 }
 
-#three {
-font-family: 'Raleway', sans-serif;
+h1 {
+  display: inline;
+  float: left;
 }
 
-#four {
-font-family: 'PT Sans', sans-serif;
+ul {
+  outline: red 1px solid;
+  clear: right;
+  width: 30%;
+  margin-left: 70%;
 }
 
-#five {
-font-family: 'Montserrat', sans-serif;
-}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
 
-#six {
-font-family: 'Roboto', sans-serif;
-}
-
-#seven {
-font-family: 'Droid Sans', sans-serif;
-}
-
-#eight {
-font-family: 'Ubuntu', sans-serif;
-}
-
-#nine {
-font-family: 'Noto Sans', sans-serif;
-}
-
-#ten {
-font-family: 'Alegreya Sans', sans-serif;
-}
-
-#eleven {
-font-family: 'Hind', sans-serif;
-}
-
-#twelve {
-font-family: 'Nunito', sans-serif;
-}
-
-#thirteen {
-font-family: 'Muli', sans-serif;
-}
-
-#fourteen {
-font-family: 'Asap', sans-serif;
-}
-
-#fifteen {
-font-family: 'Signika', sans-serif;
-}
-
-#sixteen {
-font-family: 'Merriweather Sans', sans-serif;
-}
-
-#seventeen {
-font-family: 'Karla', sans-serif;
-}
-
-#eighteen {
-font-family: 'PT Sans Caption', sans-serif;
-}
-
-#ninteen {
-font-family: 'Questrial', sans-serif;
-}
-
-#twenty {
-font-family: 'Source Code Pro';
+.container {
+margin: 0 auto;
+outline: 1px red solid;
+width: 80%;
 }
