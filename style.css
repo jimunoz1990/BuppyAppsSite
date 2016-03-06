@@ -10,6 +10,12 @@
   height: 400px;
 }
 
+.img_box {
+  outline: 1px green solid;
+  background-image: url("pusheen.gif");
+  background-size: cover;
+}
+
 .black {
   background-color: black;
   color: white;
@@ -21,21 +27,30 @@
 li {
   display: inline;
   font-family: 'Lato', sans-serif;
+  margin-right: 25px;
+  /*outline: 1px green solid;*/
+  font-size: 20px;
 }
 
 h1 {
   display: inline;
   float: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
 }
 
 ul {
   clear: right;
   width: 30%;
-  margin-left: 70%;
+  margin-left: 72%;
+  /*margin-right: 0;*/
+  /*outline: 1px blue solid;*/
 }
 
 nav {
-  margin-bottom: 10px;
+  margin: 10px;
+  width: 100%;
+  /*outline: red 1px solid;*/
 }
 
 .clearfix:after {
@@ -57,4 +72,36 @@ nav {
 	width: 100%;
 	padding: 5% 0;
   font-family: 'Lato', sans-serif;
+  outline: 1px red solid;
+}
+
+a:link {
+  text-decoration: none;
+  color: gray;
+}
+
+
+@media (max-width: 767px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .boxes {
+    clear: both;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .greeting {
+    font-size: 25px;
+  }
+
+  h1 {
+    clear: right;
+  }
 }
