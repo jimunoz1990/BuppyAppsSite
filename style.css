@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+body {
+  margin-bottom: 20px;
+}
+
 .boxes {
   float: left;
   width: 50%;
@@ -11,7 +15,7 @@
 }
 
 .img_box {
-  outline: 1px green solid;
+  /*outline: 1px green solid;*/
   background-image: url("pusheen.gif");
   background-size: cover;
 }
@@ -72,13 +76,20 @@ nav {
 	width: 100%;
 	padding: 5% 0;
   font-family: 'Lato', sans-serif;
-  outline: 1px red solid;
+  /*outline: 1px red solid;*/
 }
 
 a:link {
   text-decoration: none;
   color: gray;
 }
+
+footer {
+    text-align: center;
+    /*outline: 1px red solid;*/
+    font-family: 'Lato', sans-serif;
+  }
+
 
 
 @media (max-width: 767px) {
@@ -98,10 +109,15 @@ a:link {
   }
 
   .greeting {
-    font-size: 25px;
+    font-size: 20px;
+    /*padding: 8%;*/
+    width: 90%;
+    margin: 0 auto;
+
   }
 
   h1 {
     clear: right;
   }
-}
+
+  }
