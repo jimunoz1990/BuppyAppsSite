@@ -15,7 +15,6 @@ body {
 }
 
 .img_box {
-  /*outline: 1px green solid;*/
   background-image: url("pusheen.gif");
   background-size: cover;
 }
@@ -32,7 +31,6 @@ li {
   display: inline;
   font-family: 'Lato', sans-serif;
   margin-right: 25px;
-  /*outline: 1px green solid;*/
   font-size: 20px;
 }
 
@@ -47,14 +45,11 @@ ul {
   clear: right;
   width: 30%;
   margin-left: 72%;
-  /*margin-right: 0;*/
-  /*outline: 1px blue solid;*/
 }
 
 nav {
   margin: 10px;
   width: 100%;
-  /*outline: red 1px solid;*/
 }
 
 .clearfix:after {
@@ -76,7 +71,6 @@ nav {
 	width: 100%;
 	padding: 5% 0;
   font-family: 'Lato', sans-serif;
-  /*outline: 1px red solid;*/
 }
 
 a:link {
@@ -86,11 +80,10 @@ a:link {
 
 footer {
     text-align: center;
-    /*outline: 1px red solid;*/
     font-family: 'Lato', sans-serif;
   }
 
-
+/* phone styling */
 
 @media (max-width: 767px) {
   * {
@@ -110,7 +103,6 @@ footer {
 
   .greeting {
     font-size: 20px;
-    /*padding: 8%;*/
     width: 90%;
     margin: 0 auto;
 
@@ -118,6 +110,4 @@ footer {
 
   h1 {
     clear: right;
-  }
-
   }
